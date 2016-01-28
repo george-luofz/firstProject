@@ -15,6 +15,8 @@
 		3CF97E651C59CD6F0061BE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF97E631C59CD6F0061BE8E /* LaunchScreen.storyboard */; };
 		3CF97E701C59CD6F0061BE8E /* test_gitProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF97E6F1C59CD6F0061BE8E /* test_gitProjectTests.m */; };
 		3CF97E7B1C59CD6F0061BE8E /* test_gitProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF97E7A1C59CD6F0061BE8E /* test_gitProjectUITests.m */; };
+		3CF97E8B1C59EF120061BE8E /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF97E891C59EF120061BE8E /* ViewController2.m */; };
+		3CF97E8C1C59EF120061BE8E /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CF97E8A1C59EF120061BE8E /* ViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		3CF97E761C59CD6F0061BE8E /* test_gitProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_gitProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF97E7A1C59CD6F0061BE8E /* test_gitProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_gitProjectUITests.m; sourceTree = "<group>"; };
 		3CF97E7C1C59CD6F0061BE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF97E881C59EF120061BE8E /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		3CF97E891C59EF120061BE8E /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		3CF97E8A1C59EF120061BE8E /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				3CF97E631C59CD6F0061BE8E /* LaunchScreen.storyboard */,
 				3CF97E661C59CD6F0061BE8E /* Info.plist */,
 				3CF97E551C59CD6F0061BE8E /* Supporting Files */,
+				3CF97E881C59EF120061BE8E /* ViewController2.h */,
+				3CF97E891C59EF120061BE8E /* ViewController2.m */,
+				3CF97E8A1C59EF120061BE8E /* ViewController2.xib */,
 			);
 			path = test_gitProject;
 			sourceTree = "<group>";
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF97E651C59CD6F0061BE8E /* LaunchScreen.storyboard in Resources */,
+				3CF97E8C1C59EF120061BE8E /* ViewController2.xib in Resources */,
 				3CF97E621C59CD6F0061BE8E /* Assets.xcassets in Resources */,
 				3CF97E601C59CD6F0061BE8E /* Main.storyboard in Resources */,
 			);
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF97E5D1C59CD6F0061BE8E /* ViewController.m in Sources */,
+				3CF97E8B1C59EF120061BE8E /* ViewController2.m in Sources */,
 				3CF97E5A1C59CD6F0061BE8E /* AppDelegate.m in Sources */,
 				3CF97E571C59CD6F0061BE8E /* main.m in Sources */,
 			);
